@@ -98,6 +98,47 @@
 			</article>
 		</div>
 	</section>
+	<div class="popup-bg">
+		<div class="popup">
+      <div class="popup-close">
+        <img src="svg/form-x.svg" class="close">
+    	</div>
+   
+      <h2 class="popup-title">Ваш фидбек</h2>
+      <form class="form">
+          <div class="form-group">
+            <label class="select-group">
+              <span class="select-label">Как часто вы заходите на сайт?</span>
+              <select class="select">
+                <option value="Почти каждый день" selected>Почти каждый день</option>
+                <option value="Раз в несколько дней">Раз в несколько дней</option>
+                <option value="Раз в несколько недель">Раз в несколько недель</option>
+                <option value="Несколько раз в год">Несколько раз в год</option>
+              </select>
+            </label>
+          </div> 
+          <div class="form-group">
+            <label class="select-group">
+            <span class="select-label">Вы подписаны на e-mail рассылку?</span></label>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group" checked>
+              <span class="radio-group-text">Да</span>
+            </label>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group">
+              <span class="radio-group-text">Нет</span>
+            </label>
+          </div> 
+          <div class="form-group">
+            <label class="select-group">
+              <span class="select-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+              <input type="text" class="popup-field" placeholder="Может, больше рецептов?">
+            </label>
+            <button class="submit-popup">Отправить</button>
+          </div>
+      </form>
+    </div>
+  </div>
 	<div class="container">	
 		<main class="main">
 			<section class="main-card">
@@ -321,54 +362,64 @@
     		</picture>
     		<div class="product-content">
           <h3 class="product-title">Подушки на диван</h3>
-          <p class="product-description">
-            Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="ref">здесь</a>.</p>
+          <p class="product-description">Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="ref">здесь</a>.</p>
           <footer class="product-footer">   
           	<div class="product-prices">
             	<span class="product-price">
-              	<span class="product-price-value product-price-old">1000</span>
-              	<span class="product-rubs">₽</span>
-            	</span>
+              	<span class="product-price-value product-price-old">1000 ₽</span>
+              </span>
             	<span class="product-price">
-              	<span class="product-price-value">800</span>
-              	<span class="product-rub">₽</span>
-            	</span>
+              	<span class="product-price-value">800 ₽</span>
+              </span>
          		</div>
           	<button class="product-button" type="button">В магазин</button>
         	</footer>
       	</div>
 			</article>
 			<article class="product">
+				<picture class="product-card">
+      		<source media="(max-width: 640px)"
+            srcset="images/shop-item-mobile2.jpg">
+          <source media="((min-width: 641px) and (max-width: 1199px))"
+          	srcset="images/shop-item-tablet2.jpg">
+          <source media="(min-width: 1200px)"
+          	srcset="images/shop-item-desk2.jpg">
     		<img src="images/shop-item-desk2.jpg" class="product-img" alt="Плюшевый зайка">
+    	</picture>
     		<div class="product-content">
           <h3 class="product-title">Кукла «Зайчик»</h3>
           <p class="product-description">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0" class="ref">весенняя серия постов</a> в блоге и несколько подкастов.</p>
         	<footer class="product-footer">   
          	 	<div class="product-prices">
             	<span class="product-price">
-              	<span class="product-price-value">3500</span>
-              	<span class="product-rub">₽</span>
-            	</span>
+              	<span class="product-price-value">3500 ₽</span>
+              </span>
           	</div>
           	<button class="product-button" type="button">В магазин</button>
         	</footer>
         </div>
 			</article>
 			<article class="product">
-    		<img src="images/shop-item-desk3.jpg" class="product-img" alt="Подушка с принтом">
+				<picture class="product-card">
+      		<source media="(max-width: 640px)"
+            srcset="images/shop-item-mobile3.jpg">
+          <source media="((min-width: 641px) and (max-width: 1199px))"
+          	srcset="images/shop-item-tablet3.jpg">
+          <source media="(min-width: 1200px)"
+          	srcset="images/shop-item-desk3.jpg">
+    			<img src="images/shop-item-desk3.jpg" class="product-img" alt="Подушка с принтом">
+    		</picture>
     		<div class="product-content">
           <h3 class="product-title">Шестиугольная рамка</h3>
           <p class="product-description">Необычная рамка для украшения дома из видео <a href="#0" class="ref">«Как сделать рамку из подручных средств за 30 минут»</a></p>
         	<footer class="product-footer"> 
           	<div class="product-prices">
             	<span class="product-price">
-              	<span class="product-price-value product-price-old">500</span>
-              	<span class="product-rubs">₽</span>
-            	</span>
+              	<span class="product-price-value product-price-old">500 ₽</span>
+              </span>
             	<span class="product-price">
-              	<span class="product-price-value">400</span>
-              	<span class="product-rub">₽</span>
-            	</span>
+              	<span class="product-price-value">400 ₽</span>
+              </span>
           	</div>
           	<button class="product-button" type="button">В магазин</button>
         	</footer>
@@ -399,6 +450,6 @@
   	<h4 class="footer-copyright">
   		<a href="#0" class="copyright">Copyright © 2013–2023 City Blog LLC.</a>
   	</h4>
-	</footer>	
+	</footer>
 </body>
 </html>
