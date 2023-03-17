@@ -1718,14 +1718,14 @@ a {
   .logo {
     min-width: 278px;
     min-height: 60px;
-    margin-top: 102px;
+    margin-top: 160px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .header-title {
     font-size: 26px;
-    max-width: 90%;
+    max-width: 80%;
     margin-top: 9px;
     line-height: 1.4;
   }
