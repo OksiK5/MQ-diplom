@@ -1079,7 +1079,7 @@ a {
   }
 
   .header-title {
-    max-width: 82%;
+    max-width: 600px;
     font-size: 40px;
     line-height: 1.35;
     margin: 45px auto;
@@ -1121,11 +1121,11 @@ a {
   }
 
   .trend-content-link {
-    padding: 30px 30px 28px;
+    padding: 23px 30px 26px;
   }
 
   .trend-content-desc {
-    margin-bottom: 6px;
+    margin-bottom: 3px;
   }
 
   .trend-title {
@@ -1309,7 +1309,7 @@ a {
     box-sizing: border-box;
     width: 48.3%;
     min-width: 338px;
-    min-height: 460px;
+    min-height: 438px;
   }
   
   .product-img {
@@ -1325,23 +1325,24 @@ a {
   }
 
   .product:nth-child(n+3) {
-    margin-top: 27px;
+    margin-top: 29px;
   }
 
   .product-content {
-    margin-top: -40px;
+    margin-top: -43px;
     min-width: 334px;
-    min-height: 246px;
-    flex-grow: 1;
+    min-height: 240px;
+    padding: 52px 19px 23px;
   }
 
   .product-title {
     font-size: 17px;
+    margin: 0;
   }
 
   .product-description {
-    margin-top: 3px;
-    line-height: 1.4;
+    margin-top: 1px;
+    line-height: 1.5;
   }
 
   .product-button {
@@ -1350,13 +1351,17 @@ a {
   }
 
   .product-prices {
-    line-height: 1.1;
-  }
+    justify-content: center;
+   }
+
+   .product-footer {
+    margin-top: 20px;
+   }
 
   .footer {
     min-width: 770px;
     min-height: 182px;
-    margin-top: 26px;
+    margin-top: 31px;
   }
 
   .footer-socials {
@@ -1366,14 +1371,14 @@ a {
 
   .footer-copyright {
     min-width: 697px;
-    margin: 47px 40px;
+    margin: 44px 40px;
   }
 }
 
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
   .header {
     min-width: 770px;
-    min-height: 393px;
+    min-height: 392px;
     font-size: 24px;
     background-image: url(../images/banner-bg-tablet.jpg);
     background-position: center bottom;
@@ -1381,7 +1386,7 @@ a {
 
   .header-content {
     min-width: 200px;
-    margin: 20px 35px;
+    margin: 37px 36px;
     padding: 0;
   }
 
@@ -1400,7 +1405,7 @@ a {
   }
 
   .header-title {
-    max-width: 80%;
+    max-width: 77.8%;
     font-size: 40px;
     line-height: 1.35;
     margin: 43px auto;
@@ -1685,7 +1690,7 @@ a {
 @media (max-width: 640px) and (orientation: portrait) {
   .header {
     min-width: 360px;
-    min-height: 100vh;
+    min-height: 640px;
     background-image: url(../images/banner-mobile.jpg);
     background-position: center center;
   }
@@ -1713,14 +1718,14 @@ a {
     display: flex;
     width: 0.9em;
     height: 0.8em; 
-    margin-right: 17px;
-    margin-top: 33px;
+    margin-right: 16px;
+    margin-top: 31px;
   }
 
   .logo {
     min-width: 278px;
     min-height: 60px;
-    margin-top: 160px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1766,11 +1771,11 @@ a {
     min-width: 330px;
     min-height: 120px;
     margin: 15px;
-    padding: 22px 20px 29px 20px;
+    padding: 22px 20px 28px 20px;
   }
 
   .trend-content-desc {
-    margin-bottom: 9px;
+    margin-bottom: 3px;
   }
 
   .trend-title {
