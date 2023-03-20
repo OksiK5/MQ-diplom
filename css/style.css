@@ -889,6 +889,7 @@ a {
   border: 3px solid #d3c59d;
   padding: 26px 20px;
   margin-top: -35px;
+  flex-grow: 1;
 }
 
 .product-title {
