@@ -544,7 +544,7 @@ a {
   font-weight: bold;
 }
 
-.datetime {
+.date {
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -1237,7 +1237,7 @@ a {
     font-size: 12px;
   }
 
-  .datetime {
+  .date {
     margin-right: 13px;
   }
 
@@ -1559,7 +1559,7 @@ a {
     font-size: 12px;
   }
 
-  .datetime {
+  .date {
     margin-right: 13px;
   }
 
