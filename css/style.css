@@ -296,7 +296,7 @@ a {
 }
 
 .trend-title:hover {
-  color: #b59f5b;;
+  color: #b59f5b;
 }
 
 /*------POPUP------*/
@@ -1295,7 +1295,7 @@ a {
   }
 
   .products {
-    min-width: 697px;
+    min-width: 700px;
     min-height: 924px;
     flex-wrap: wrap;
     margin: 20px 35px 0;
@@ -1308,7 +1308,7 @@ a {
     flex-direction: column;
     box-sizing: border-box;
     width: 48.3%;
-    min-width: 338px;
+    min-width: 338.5px;
     min-height: 438px;
   }
   
@@ -1580,7 +1580,7 @@ a {
   }
 
   .news {
-    width: 272px;
+    max-width: 272px;
     margin-bottom: 57px;
   }
 
@@ -1591,6 +1591,7 @@ a {
   .news-card {
     margin-top: 16px;
   }
+
   .news-card-img {
     margin-right: 19px;
   }
@@ -1602,22 +1603,21 @@ a {
   .submit {
     margin-top: 18px;
   }
+
   .section-shop-box {
     min-width: 770px;
     max-width: 1200px;
     min-height: 978px;
     margin: 44px auto 0;
     padding: 0;
-
   }
 
   .products {
-    min-width: 697px;
+    min-width: 700px;
     min-height: 924px;
     flex-wrap: wrap;
     margin: 20px 35px 0;
     box-sizing: border-box;
-    
   }
 
   .product {
@@ -1625,7 +1625,7 @@ a {
     flex-direction: column;
     box-sizing: border-box;
     width: 48.3%;
-    min-width: 338px;
+    min-width: 338.5px;
     min-height: 460px;
   }
   
@@ -1753,6 +1753,7 @@ a {
   .content {
     flex-direction: column;
     min-width: 360px;
+    min-height: 934px;
     margin: 16px 0 0 0;
   }
 
@@ -1770,7 +1771,7 @@ a {
   .trend-content-link {
     min-width: 330px;
     min-height: 120px;
-    margin: 15px;
+    margin: 15px auto;
     padding: 22px 20px 28px 20px;
   }
 
@@ -1835,9 +1836,9 @@ a {
 
   .main-card {
     flex-direction: column;
-    padding-bottom: 19px;
+    padding-bottom: 18px;
     border-bottom: 3px solid #eeeeee;
-    margin-bottom: 33px;
+    margin-bottom: 34px;
   }
 
   .card-img {
@@ -1873,23 +1874,28 @@ a {
   }
 
   .aside {
-    max-width: 330px;
+    width: 100%;
+    max-width: 610px;
+    min-width: 330px;
     padding: 0;
     margin: 3px auto 0;
   }
 
   .news {
-    max-width: 330px;
     min-height: 602px;
   }
 
   .news, .newsletter, .thems {
-    max-width: 330px;
+    width: 100%;
+    min-width: 330px;
+    max-width: 610px;
     margin-bottom: 41px;
   }
 
   .tags {
-    max-width: 330px;
+    width: 100%;
+    min-width: 330px;
+    max-width: 610px;
     margin-bottom: 33px;
   }  
 
@@ -1898,11 +1904,11 @@ a {
   }
 
   .news-card {
-    margin-top: 13px;
+    margin-top: 18px;
   }
 
   .news-card-img {
-    margin-top: 8px;
+    margin-top: 3px;
     margin-right: 18px;
   }
 
@@ -1913,6 +1919,7 @@ a {
   .search {
     margin-bottom: 0;
   }
+
   .subscription {
     margin-top: 13px;
   }
@@ -2210,22 +2217,28 @@ a {
   }
 
   .aside {
-    max-width: 330px;
+    width: 100%;
+    min-width: 330px;
+    max-width: 610px;
     padding: 0;
-    margin: 3px auto 0;
+    margin: 3px 0 0;
   }
 
-  .news {
-    max-width: 330px;
+  /*.news {
     min-height: 602px;
-  }
+  }*/
 
   .news, .newsletter, .thems {
-    max-width: 330px;
+    width: 100%;
+    min-width: 330px;
+    max-width: 610px;
     margin-bottom: 41px;
   }
 
   .tags {
+    width: 100%;
+    min-width: 330px;
+    max-width: 610px;
     margin-bottom: 33px;
   }  
 
@@ -2238,7 +2251,7 @@ a {
   }
 
   .news-card-img {
-    margin-top: 8px;
+    margin-top: 2px;
     margin-right: 18px;
   }
 
